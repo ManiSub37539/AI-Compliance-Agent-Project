@@ -18,18 +18,20 @@ def evaluate_user_prompt(prompt: str):
     # Hard block from deterministic scanner
     if scan_result["severity"] == "block":
         scan_result["llm_decision"] = "SKIPPED"
+        scan_result["llm_reason"] = "LLM evaluation skipped because deterministic scanner already blocked the prompt."
         scan_result["triggered"] = True
         scan_result["final_decision"] = "BLOCK"
         return scan_result
 
     # Run LLM evaluator for non-blocked prompts
-    llm_decision = evaluate_prompt(prompt)
-    scan_result["llm_decision"] = llm_decision
+    llm_result = evaluate_prompt(prompt)
+    scan_result["llm_decision"] = llm_result["decision"]
+    scan_result["llm_reason"] = llm_result["reason"]
 
     # Escalate severity only, never downgrade
-    if llm_decision == "BLOCK":
+    if llm_result["decision"] == "BLOCK":
         scan_result["severity"] = "block"
-    elif llm_decision == "ALERT":
+    elif llm_result["decision"] == "ALERT":
         if scan_result["severity"] == "none":
             scan_result["severity"] = "alert"
 
