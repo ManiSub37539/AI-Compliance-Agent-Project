@@ -1,0 +1,283 @@
+[
+  {
+    "timestamp": "2026-03-23T16:57:39.305743Z",
+    "mode": "local",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 6486.0,
+        "12": 4804.0,
+        "8": 1486.0
+      },
+      "slow_hours": {
+        "8": 1486.0,
+        "12": 4804.0,
+        "18": 6486.0
+      },
+      "busiest_days": {
+        "Sunday": 3402.0,
+        "Saturday": 1882.0,
+        "Friday": 1700.0
+      },
+      "slow_days": {
+        "Thursday": 1372.0,
+        "Wednesday": 1422.0,
+        "Tuesday": 1480.0
+      },
+      "seasonality": {
+        "March": 12776.0
+      },
+      "channel_perf": {
+        "delivery": 6486.0,
+        "dine-in": 5494.0,
+        "takeout": 796.0
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.08,
+        "18": 0.07,
+        "12": 0.07
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Peak pressure hours: [18, 12, 8]\n- Underutilized hours: [8, 12, 18]\n- Channel likely causing highest load: delivery\n- Lowest contribution channel: takeout\n- High volume but low revenue hours: [8, 18, 12]\n\n=== KEY INSIGHTS ===\n- Reallocate staffing from slow to peak hours.\n- Track channel-specific prep and handoff times during peak blocks.\n- Review menu mix and upsell opportunities in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Increase staffing by 1-2 during top peak blocks and reduce by 1 during slow blocks.\n- Create a slow-hour promotion to shift demand away from peak congestion.\n- Split kitchen workflow by channel during rush periods to reduce bottlenecks.\n\n=== PRIORITY ACTIONS ===\n1. Rebalance hourly staffing around peak and slow windows.\n2. Launch an off-peak offer for low-utilization periods.\n3. Raise average check size in mismatch hours via bundles or add-ons.\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Peak pressure hours: [18, 12, 8]\n- Underutilized hours: [8, 12, 18]\n- Channel likely causing highest load: delivery\n- Lowest contribution channel: takeout\n- High volume but low revenue hours: [8, 18, 12]\n\n=== KEY INSIGHTS ===\n- Reallocate staffing from slow to peak hours.\n- Track channel-specific prep and handoff times during peak blocks.\n- Review menu mix and upsell opportunities in mismatch hours."
+  },
+  {
+    "timestamp": "2026-03-30T04:10:31.193923Z",
+    "mode": "local",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 63053.08,
+        "11": 46607.01,
+        "21": 39095.58
+      },
+      "slow_hours": {
+        "8": 16494.66,
+        "14": 33308.95,
+        "21": 39095.58
+      },
+      "busiest_days": {
+        "Sunday": 34203.66,
+        "Saturday": 34113.09,
+        "Friday": 30696.35
+      },
+      "slow_days": {
+        "Wednesday": 23526.27,
+        "Monday": 24835.18,
+        "Tuesday": 24903.06
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 88489.28,
+        "dine-in": 78833.96,
+        "takeout": 31236.04
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14, 21]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Try adding 1-2 people in peak blocks and trimming 1 person in slow blocks.\n- Run a simple slow-hour promo so demand is less stacked at peak time.\n- If possible, separate kitchen flow by channel during rushes.\n\n=== PRIORITY ACTIONS ===\n1. Rebalance staffing around busy and quiet windows.\n2. Launch a small off-peak offer.\n3. Raise average order value in mismatch hours with bundles or add-ons.\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14, 21]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours."
+  },
+  {
+    "timestamp": "2026-04-06T17:23:18.760306Z",
+    "mode": "local",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 63053.08,
+        "11": 46607.01,
+        "21": 39095.58
+      },
+      "slow_hours": {
+        "8": 16494.66,
+        "14": 33308.95,
+        "21": 39095.58
+      },
+      "busiest_days": {
+        "Sunday": 34203.66,
+        "Saturday": 34113.09,
+        "Friday": 30696.35
+      },
+      "slow_days": {
+        "Wednesday": 23526.27,
+        "Monday": 24835.18,
+        "Tuesday": 24903.06
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 88489.28,
+        "dine-in": 78833.96,
+        "takeout": 31236.04
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14, 21]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Try adding 1-2 people in peak blocks and trimming 1 person in slow blocks.\n- Run a simple slow-hour promo so demand is less stacked at peak time.\n- If possible, separate kitchen flow by channel during rushes.\n\n=== PRIORITY ACTIONS ===\n1. Rebalance staffing around busy and quiet windows.\n2. Launch a small off-peak offer.\n3. Raise average order value in mismatch hours with bundles or add-ons.\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14, 21]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours."
+  },
+  {
+    "timestamp": "2026-04-06T17:31:48.079483Z",
+    "mode": "local",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 63053.08,
+        "11": 46607.01,
+        "21": 39095.58
+      },
+      "slow_hours": {
+        "8": 16494.66,
+        "14": 33308.95
+      },
+      "busiest_days": {
+        "Sunday": 34203.66,
+        "Saturday": 34113.09,
+        "Friday": 30696.35
+      },
+      "slow_days": {
+        "Wednesday": 23526.27,
+        "Monday": 24835.18,
+        "Tuesday": 24903.06
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84
+      },
+      "seasonal_spikes": {
+        "March": 75273.88,
+        "January": 62464.56
+      },
+      "seasonal_lulls": {
+        "February": 60820.84,
+        "January": 62464.56
+      },
+      "channel_perf": {
+        "delivery": 88489.28,
+        "dine-in": 78833.96,
+        "takeout": 31236.04
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n- Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n- Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n- Channel ops: copy the strongest practices from delivery into takeout and run a targeted promo for takeout.\n- Seasonality: pre-plan labor and inventory for demand spikes in March, January.\n- Seasonality: use February, January for maintenance, training, and retention offers.\n\n=== PRIORITY ACTIONS ===\n1. Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n2. Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n3. Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n\n=== SIGNALS USED ===\n- Peak hours: 18, 11, 21\n- Slow hours: 8, 14\n- Busiest days: Sunday, Saturday, Friday\n- Slow days: Wednesday, Monday, Tuesday\n- Volume/revenue mismatch hours: 8, 14, 18\n- Strongest channel: delivery\n- Weakest channel: takeout\n- Seasonal spikes: March, January\n- Seasonal lulls: February, January\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours."
+  },
+  {
+    "timestamp": "2026-04-06T17:32:10.672162Z",
+    "mode": "local",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 63053.08,
+        "11": 46607.01,
+        "21": 39095.58
+      },
+      "slow_hours": {
+        "8": 16494.66,
+        "14": 33308.95
+      },
+      "busiest_days": {
+        "Sunday": 34203.66,
+        "Saturday": 34113.09,
+        "Friday": 30696.35
+      },
+      "slow_days": {
+        "Wednesday": 23526.27,
+        "Monday": 24835.18,
+        "Tuesday": 24903.06
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84
+      },
+      "seasonal_spikes": {
+        "March": 75273.88,
+        "January": 62464.56
+      },
+      "seasonal_lulls": {
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 88489.28,
+        "dine-in": 78833.96,
+        "takeout": 31236.04
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n- Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n- Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n- Channel ops: copy the strongest practices from delivery into takeout and run a targeted promo for takeout.\n- Seasonality: pre-plan labor and inventory for demand spikes in March, January.\n- Seasonality: use February for maintenance, training, and retention offers.\n\n=== PRIORITY ACTIONS ===\n1. Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n2. Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n3. Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n\n=== SIGNALS USED ===\n- Peak hours: 18, 11, 21\n- Slow hours: 8, 14\n- Busiest days: Sunday, Saturday, Friday\n- Slow days: Wednesday, Monday, Tuesday\n- Volume/revenue mismatch hours: 8, 14, 18\n- Strongest channel: delivery\n- Weakest channel: takeout\n- Seasonal spikes: March, January\n- Seasonal lulls: February\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours."
+  },
+  {
+    "timestamp": "2026-04-06T17:35:07.134864Z",
+    "mode": "local",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 63053.08,
+        "11": 46607.01,
+        "21": 39095.58
+      },
+      "slow_hours": {
+        "8": 16494.66,
+        "14": 33308.95
+      },
+      "busiest_days": {
+        "Sunday": 34203.66,
+        "Saturday": 34113.09,
+        "Friday": 30696.35
+      },
+      "slow_days": {
+        "Wednesday": 23526.27,
+        "Monday": 24835.18,
+        "Tuesday": 24903.06
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84
+      },
+      "seasonal_spikes": {
+        "March": 75273.88,
+        "January": 62464.56
+      },
+      "seasonal_lulls": {
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 88489.28,
+        "dine-in": 78833.96,
+        "takeout": 31236.04
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n- Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n- Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n- Channel ops: copy the strongest practices from delivery into takeout and run a targeted promo for takeout.\n- Seasonality: pre-plan labor and inventory for demand spikes in March, January.\n- Seasonality: use February for maintenance, training, and retention offers.\n\n=== PRIORITY ACTIONS ===\n1. Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n2. Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n3. Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n\n=== SIGNALS USED ===\n- Peak hours: 18, 11, 21\n- Slow hours: 8, 14\n- Busiest days: Sunday, Saturday, Friday\n- Slow days: Wednesday, Monday, Tuesday\n- Volume/revenue mismatch hours: 8, 14, 18\n- Strongest channel: delivery\n- Weakest channel: takeout\n- Seasonal spikes: March, January\n- Seasonal lulls: February\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours."
+  }
+]
