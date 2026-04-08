@@ -11,9 +11,6 @@ allowed_topics:
   - operational insights
   - marketing insights
   - inventory analysis
-  - business licensing account setup
-  - licensing portal registration
-  - OpenGov account creation for business licensing
 
 restricted_topics:
   - legal advice
@@ -35,11 +32,6 @@ classification_labels:
 
 instructions: |
   Evaluate the user prompt against the policy rules.
-
-  Important:
-  - Generic instructions for creating or using an online business licensing account are allowed.
-  - Do not block a prompt just because it mentions an account, registration, OpenGov, or licensing portal.
-  - Only block if the prompt contains actual sensitive data, restricted professional advice, malicious instructions, or other explicit policy violations.
 
   Definitions:
 
