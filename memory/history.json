@@ -1,0 +1,593 @@
+[
+  {
+    "timestamp": "2026-03-23T16:57:39.305743Z",
+    "mode": "local",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 6486.0,
+        "12": 4804.0,
+        "8": 1486.0
+      },
+      "slow_hours": {
+        "8": 1486.0,
+        "12": 4804.0,
+        "18": 6486.0
+      },
+      "busiest_days": {
+        "Sunday": 3402.0,
+        "Saturday": 1882.0,
+        "Friday": 1700.0
+      },
+      "slow_days": {
+        "Thursday": 1372.0,
+        "Wednesday": 1422.0,
+        "Tuesday": 1480.0
+      },
+      "seasonality": {
+        "March": 12776.0
+      },
+      "channel_perf": {
+        "delivery": 6486.0,
+        "dine-in": 5494.0,
+        "takeout": 796.0
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.08,
+        "18": 0.07,
+        "12": 0.07
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Peak pressure hours: [18, 12, 8]\n- Underutilized hours: [8, 12, 18]\n- Channel likely causing highest load: delivery\n- Lowest contribution channel: takeout\n- High volume but low revenue hours: [8, 18, 12]\n\n=== KEY INSIGHTS ===\n- Reallocate staffing from slow to peak hours.\n- Track channel-specific prep and handoff times during peak blocks.\n- Review menu mix and upsell opportunities in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Increase staffing by 1-2 during top peak blocks and reduce by 1 during slow blocks.\n- Create a slow-hour promotion to shift demand away from peak congestion.\n- Split kitchen workflow by channel during rush periods to reduce bottlenecks.\n\n=== PRIORITY ACTIONS ===\n1. Rebalance hourly staffing around peak and slow windows.\n2. Launch an off-peak offer for low-utilization periods.\n3. Raise average check size in mismatch hours via bundles or add-ons.\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Peak pressure hours: [18, 12, 8]\n- Underutilized hours: [8, 12, 18]\n- Channel likely causing highest load: delivery\n- Lowest contribution channel: takeout\n- High volume but low revenue hours: [8, 18, 12]\n\n=== KEY INSIGHTS ===\n- Reallocate staffing from slow to peak hours.\n- Track channel-specific prep and handoff times during peak blocks.\n- Review menu mix and upsell opportunities in mismatch hours."
+  },
+  {
+    "timestamp": "2026-03-30T04:10:31.193923Z",
+    "mode": "local",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 63053.08,
+        "11": 46607.01,
+        "21": 39095.58
+      },
+      "slow_hours": {
+        "8": 16494.66,
+        "14": 33308.95,
+        "21": 39095.58
+      },
+      "busiest_days": {
+        "Sunday": 34203.66,
+        "Saturday": 34113.09,
+        "Friday": 30696.35
+      },
+      "slow_days": {
+        "Wednesday": 23526.27,
+        "Monday": 24835.18,
+        "Tuesday": 24903.06
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 88489.28,
+        "dine-in": 78833.96,
+        "takeout": 31236.04
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14, 21]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Try adding 1-2 people in peak blocks and trimming 1 person in slow blocks.\n- Run a simple slow-hour promo so demand is less stacked at peak time.\n- If possible, separate kitchen flow by channel during rushes.\n\n=== PRIORITY ACTIONS ===\n1. Rebalance staffing around busy and quiet windows.\n2. Launch a small off-peak offer.\n3. Raise average order value in mismatch hours with bundles or add-ons.\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14, 21]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours."
+  },
+  {
+    "timestamp": "2026-04-06T17:23:18.760306Z",
+    "mode": "local",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 63053.08,
+        "11": 46607.01,
+        "21": 39095.58
+      },
+      "slow_hours": {
+        "8": 16494.66,
+        "14": 33308.95,
+        "21": 39095.58
+      },
+      "busiest_days": {
+        "Sunday": 34203.66,
+        "Saturday": 34113.09,
+        "Friday": 30696.35
+      },
+      "slow_days": {
+        "Wednesday": 23526.27,
+        "Monday": 24835.18,
+        "Tuesday": 24903.06
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 88489.28,
+        "dine-in": 78833.96,
+        "takeout": 31236.04
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14, 21]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Try adding 1-2 people in peak blocks and trimming 1 person in slow blocks.\n- Run a simple slow-hour promo so demand is less stacked at peak time.\n- If possible, separate kitchen flow by channel during rushes.\n\n=== PRIORITY ACTIONS ===\n1. Rebalance staffing around busy and quiet windows.\n2. Launch a small off-peak offer.\n3. Raise average order value in mismatch hours with bundles or add-ons.\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14, 21]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours."
+  },
+  {
+    "timestamp": "2026-04-06T17:31:48.079483Z",
+    "mode": "local",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 63053.08,
+        "11": 46607.01,
+        "21": 39095.58
+      },
+      "slow_hours": {
+        "8": 16494.66,
+        "14": 33308.95
+      },
+      "busiest_days": {
+        "Sunday": 34203.66,
+        "Saturday": 34113.09,
+        "Friday": 30696.35
+      },
+      "slow_days": {
+        "Wednesday": 23526.27,
+        "Monday": 24835.18,
+        "Tuesday": 24903.06
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84
+      },
+      "seasonal_spikes": {
+        "March": 75273.88,
+        "January": 62464.56
+      },
+      "seasonal_lulls": {
+        "February": 60820.84,
+        "January": 62464.56
+      },
+      "channel_perf": {
+        "delivery": 88489.28,
+        "dine-in": 78833.96,
+        "takeout": 31236.04
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n- Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n- Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n- Channel ops: copy the strongest practices from delivery into takeout and run a targeted promo for takeout.\n- Seasonality: pre-plan labor and inventory for demand spikes in March, January.\n- Seasonality: use February, January for maintenance, training, and retention offers.\n\n=== PRIORITY ACTIONS ===\n1. Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n2. Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n3. Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n\n=== SIGNALS USED ===\n- Peak hours: 18, 11, 21\n- Slow hours: 8, 14\n- Busiest days: Sunday, Saturday, Friday\n- Slow days: Wednesday, Monday, Tuesday\n- Volume/revenue mismatch hours: 8, 14, 18\n- Strongest channel: delivery\n- Weakest channel: takeout\n- Seasonal spikes: March, January\n- Seasonal lulls: February, January\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours."
+  },
+  {
+    "timestamp": "2026-04-06T17:32:10.672162Z",
+    "mode": "local",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 63053.08,
+        "11": 46607.01,
+        "21": 39095.58
+      },
+      "slow_hours": {
+        "8": 16494.66,
+        "14": 33308.95
+      },
+      "busiest_days": {
+        "Sunday": 34203.66,
+        "Saturday": 34113.09,
+        "Friday": 30696.35
+      },
+      "slow_days": {
+        "Wednesday": 23526.27,
+        "Monday": 24835.18,
+        "Tuesday": 24903.06
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84
+      },
+      "seasonal_spikes": {
+        "March": 75273.88,
+        "January": 62464.56
+      },
+      "seasonal_lulls": {
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 88489.28,
+        "dine-in": 78833.96,
+        "takeout": 31236.04
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n- Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n- Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n- Channel ops: copy the strongest practices from delivery into takeout and run a targeted promo for takeout.\n- Seasonality: pre-plan labor and inventory for demand spikes in March, January.\n- Seasonality: use February for maintenance, training, and retention offers.\n\n=== PRIORITY ACTIONS ===\n1. Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n2. Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n3. Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n\n=== SIGNALS USED ===\n- Peak hours: 18, 11, 21\n- Slow hours: 8, 14\n- Busiest days: Sunday, Saturday, Friday\n- Slow days: Wednesday, Monday, Tuesday\n- Volume/revenue mismatch hours: 8, 14, 18\n- Strongest channel: delivery\n- Weakest channel: takeout\n- Seasonal spikes: March, January\n- Seasonal lulls: February\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours."
+  },
+  {
+    "timestamp": "2026-04-06T17:35:07.134864Z",
+    "mode": "local",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 63053.08,
+        "11": 46607.01,
+        "21": 39095.58
+      },
+      "slow_hours": {
+        "8": 16494.66,
+        "14": 33308.95
+      },
+      "busiest_days": {
+        "Sunday": 34203.66,
+        "Saturday": 34113.09,
+        "Friday": 30696.35
+      },
+      "slow_days": {
+        "Wednesday": 23526.27,
+        "Monday": 24835.18,
+        "Tuesday": 24903.06
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84
+      },
+      "seasonal_spikes": {
+        "March": 75273.88,
+        "January": 62464.56
+      },
+      "seasonal_lulls": {
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 88489.28,
+        "dine-in": 78833.96,
+        "takeout": 31236.04
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n- Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n- Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n- Channel ops: copy the strongest practices from delivery into takeout and run a targeted promo for takeout.\n- Seasonality: pre-plan labor and inventory for demand spikes in March, January.\n- Seasonality: use February for maintenance, training, and retention offers.\n\n=== PRIORITY ACTIONS ===\n1. Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n2. Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n3. Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n\n=== SIGNALS USED ===\n- Peak hours: 18, 11, 21\n- Slow hours: 8, 14\n- Busiest days: Sunday, Saturday, Friday\n- Slow days: Wednesday, Monday, Tuesday\n- Volume/revenue mismatch hours: 8, 14, 18\n- Strongest channel: delivery\n- Weakest channel: takeout\n- Seasonal spikes: March, January\n- Seasonal lulls: February\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours."
+  },
+  {
+    "timestamp": "2026-04-16T02:45:44.953826Z",
+    "mode": "local",
+    "model": "local-rule-based",
+    "analysis": {
+      "peak_hours": {
+        "18": 63053.08,
+        "11": 46607.01,
+        "21": 39095.58
+      },
+      "slow_hours": {
+        "8": 16494.66,
+        "14": 33308.95
+      },
+      "busiest_days": {
+        "Sunday": 34203.66,
+        "Saturday": 34113.09,
+        "Friday": 30696.35
+      },
+      "slow_days": {
+        "Wednesday": 23526.27,
+        "Monday": 24835.18,
+        "Tuesday": 24903.06
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84
+      },
+      "seasonal_spikes": {
+        "March": 75273.88,
+        "January": 62464.56
+      },
+      "seasonal_lulls": {
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 88489.28,
+        "dine-in": 78833.96,
+        "takeout": 31236.04
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours.",
+    "recommendations": "=== RECOMMENDATIONS ===\n- Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n- Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n- Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n- Channel ops: copy the strongest practices from delivery into takeout and run a targeted promo for takeout.\n- Seasonality: pre-plan labor and inventory for demand spikes in March, January.\n- Seasonality: use February for maintenance, training, and retention offers.\n\n=== PRIORITY ACTIONS ===\n1. Staffing: add coverage during peak hours (18, 11, 21), especially on busy days (Sunday, Saturday, Friday).\n2. Schedule smoothing: move breaks, training, and prep into slow hours (8, 14).\n3. Pricing/menu: focus bundles and add-ons in high-volume, low-revenue hours (8, 14, 18) to raise ticket size.\n\n=== SIGNALS USED ===\n- Peak hours: 18, 11, 21\n- Slow hours: 8, 14\n- Busiest days: Sunday, Saturday, Friday\n- Slow days: Wednesday, Monday, Tuesday\n- Volume/revenue mismatch hours: 8, 14, 18\n- Strongest channel: delivery\n- Weakest channel: takeout\n- Seasonal spikes: March, January\n- Seasonal lulls: February\n\n=== CONTEXT USED ===\n=== BOTTLENECKS ===\n- Busy hours to watch: [18, 11, 21]\n- Quiet hours: [8, 14]\n- Channel with most revenue right now: delivery\n- Weakest channel by revenue: takeout\n- Hours that might have lots of orders but weak revenue: [8, 14, 18]\n\n=== KEY INSIGHTS ===\n- Shift a little staffing from quiet hours to busy hours.\n- Check prep and handoff times by channel during rush periods.\n- Test simple add-ons or bundles in mismatch hours."
+  },
+  {
+    "timestamp": "2026-04-23T15:34:38.774058Z",
+    "mode": "openai",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 68570.63,
+        "11": 50561.34,
+        "21": 42512.22
+      },
+      "slow_hours": {
+        "8": 17940.42,
+        "14": 36287.28
+      },
+      "busiest_days": {
+        "Saturday": 37149.89,
+        "Sunday": 37107.13,
+        "Friday": 33377.5
+      },
+      "slow_days": {
+        "Wednesday": 25790.96,
+        "Tuesday": 26857.99,
+        "Monday": 26904.22
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84,
+        "April": 17312.61
+      },
+      "seasonal_spikes": {
+        "March": 75273.88,
+        "January": 62464.56
+      },
+      "seasonal_lulls": {
+        "April": 17312.61,
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 96390.38,
+        "dine-in": 86518.81,
+        "takeout": 32962.7
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Overloaded peak windows: 18:00 (68,570.63) is the heaviest; 11:00 (50,561.34) also high; 21:00 (42,512.22) adds late pressure, especially Fri\u2013Sun.\n- Underused windows: 8:00 (17,940.42) and 14:00 (36,287.28).\n- Channel pressure points: Delivery leads revenue (96,390.38) \u2014 packing/handoff likely to strain during dinner peaks.\n- Volume\u2013revenue mismatch flags: 8:00 (0.09), 14:00 (0.08), 18:00 (0.08) \u2014 potential high-order/low-revenue windows needing review.\n- Weekend concentration: Saturday (37,149.89), Sunday (37,107.13), Friday (33,377.50) drive most volume; capacity can pinch those days.\n\n=== KEY INSIGHTS ===\n- Peak hours: 18:00 > 11:00 > 21:00.\n- Slow hours: 8:00 is lowest; 14:00 is a lull.\n- Busiest days: Saturday, Sunday, Friday. Slow days: Wednesday (25,790.96), Tuesday (26,857.99), Monday (26,904.22).\n- Seasonality: Strong spike in March (75,273.88) and January (62,464.56); sharp drop in April (17,312.61) stands out; February at 60,820.84.\n- Channel performance: Delivery (96,390.38) > Dine-in (86,518.81) >> Takeout (32,962.70).\n- Notable pattern: Large March-to-April decline suggests a significant seasonal lull.\n\n=== RECOMMENDATIONS ===\n- Staffing:\n  - Add kitchen, expo/packer, and delivery handoff coverage Fri\u2013Sun 17:00\u201319:00; bolster lunch at 11:00.\n  - Trim or cross-train coverage at 8:00 and 14:00; keep a light crew with quick ramp-up option.\n- Prep/flow:\n  - Pre-batch top sellers before 17:00; stage sauces/sides for quick assembly.\n  - Dedicate a packer and labeled staging shelves for delivery orders during peaks.\n  - Separate pickup spot/queue for takeout to avoid blocking dine-in and delivery.\n- Promo timing:\n  - Run Mon\u2013Wed and 8:00/14:00 offers (bundle/BOGO or combo pricing) to fill lulls.\n  - Late-evening (21:00) \u201cadd a side/dessert\u201d nudge to lift ticket size.\n  - Plan ahead: staff/inventory up for March; targeted April promotions to counter the lull.\n- Improve average order value:\n  - Bundle mains with sides/drinks; threshold perks (free side over a spend level).\n  - In delivery/takeout checkout, suggest high-margin add-ons; table-side prompts for dine-in.\n- Mismatch audit:\n  - Review AOV, discount use, and item mix at 8:00, 14:00, 18:00; adjust pricing/promos if revenue lags order volume.\n\n=== PRIORITY ACTIONS ===\n1. Lock a dinner-rush plan for Fri\u2013Sun 17:00\u201319:00: add staff, assign a dedicated delivery packer, and set clear staging/handoff.\n2. Launch Mon\u2013Wed off-peak (8:00 and 14:00) bundle/BOGO promo and a fast pickup lane to boost takeout.\n3. Audit AOV and discounts at 8:00, 14:00, and 18:00; tweak menus/promos accordingly, and prep a March ramp/April promo push.",
+    "recommendations": "Here\u2019s a tight action plan based on the patterns you shared.\n\nStaffing and scheduling\n- Fri\u2013Sun dinner (18:00 peak; also 17:00\u201319:30 window): add 1 line cook, 1 expo/packer, and 1 runner/handoff focused on delivery. Manager on the floor 17:00\u201320:00. No breaks 17:00\u201319:00; shift them earlier.\n- Lunch (11:00): have the line live by 10:30. Add 1 cashier/host 10:45\u201312:30 Fri\u2013Sun. Pre-fire staples at 10:15.\n- Late window (21:00): keep a lean, cross-trained crew (1 cook + 1 expo/packer + 1 FOH) to handle a smaller but steady bump.\n- Slow windows (8:00 and 14:00): run a skeleton crew (1 cook + 1 FOH). Use this time for prep, with one on-call swing who can arrive within 30 minutes if orders spike.\n- Delivery is your top channel: assign a dedicated delivery packer/handoff during 11:00\u201312:30 and 17:00\u201320:00, especially Fri\u2013Sun.\n- Plan by season: staff/inventory up for March\u2019s spike; scale hours and push promos in April\u2019s lull.\n\nFlow and prep\n- Pre-batch before rush: portion proteins, par-cook items, and set sides/sauces by 10:30 and 16:30. Label and time-stamp.\n- Dedicated packing station: hot hold, labels with customer name/app, sealed bags, and clear QC checks. Staging shelves by app (DoorDash/UberEats/etc.).\n- Separate pickup path: a clearly marked shelf/spot near the entrance so takeout/delivery doesn\u2019t block dine-in.\n- Order pacing: route dine-in vs. off-premise on your KDS. If quoted times exceed targets (e.g., 10 min lunch, 14 min dinner), throttle delivery menus or pause low-margin items until the board clears.\n- Expo controls the pass: calls ticket times, releases orders in batches, and coordinates with the delivery handoff so drivers wait under 3 minutes.\n\nRevenue ideas for high-volume, low-revenue windows (mismatch at 8:00, 14:00, 18:00)\n- 8:00\n  - Shift from single low-price items to bundles (e.g., breakfast main + side + coffee at a set price).\n  - Add paid premium add-ons (bacon/avocado/extra egg). Set a delivery minimum (e.g., $15).\n  - Replace blanket discounts with \u201cspend-and-save\u201d thresholds (free coffee over $12).\n- 14:00\n  - Late-lunch/snack combos (half-sandwich + soup + drink) and shareable sides add-ons.\n  - Double loyalty points Mon\u2013Wed at 14:00. Promote fast pickup/curbside to capture quick breaks.\n  - Office/catering minis (tray of 6\u20138 portions) with a per-person price.\n- 18:00\n  - Tighten discounts 17:30\u201319:00 and raise free-delivery thresholds. Highlight family bundles (feeds 3\u20134) to lift ticket size.\n  - Add high-margin upsells in-app and table-side (extra side, dessert, premium toppings).\n  - If delivery is strong, price the delivery menu 8\u201312% above dine-in to cover fees and lift AOV.\n\nTop 3 priorities\n1) Lock the Fri\u2013Sun dinner rush plan: add a dedicated delivery packer + expo, separate pickup lane, pre-batch by 16:30, and set pacing/throttle rules.\n2) Launch Mon\u2013Wed off-peak offers at 8:00 and 14:00 (combos, double points) and promote a fast pickup lane; set delivery minimums.\n3) Audit AOV/discounts at 8:00, 14:00, 18:00 this week; cut underpriced deals, add family bundles and spend thresholds, and update delivery pricing."
+  },
+  {
+    "timestamp": "2026-04-23T15:36:14.822323Z",
+    "mode": "openai",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 68570.63,
+        "11": 50561.34,
+        "21": 42512.22
+      },
+      "slow_hours": {
+        "8": 17940.42,
+        "14": 36287.28
+      },
+      "busiest_days": {
+        "Saturday": 37149.89,
+        "Sunday": 37107.13,
+        "Friday": 33377.5
+      },
+      "slow_days": {
+        "Wednesday": 25790.96,
+        "Tuesday": 26857.99,
+        "Monday": 26904.22
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84,
+        "April": 17312.61
+      },
+      "seasonal_spikes": {
+        "March": 75273.88,
+        "January": 62464.56
+      },
+      "seasonal_lulls": {
+        "April": 17312.61,
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 96390.38,
+        "dine-in": 86518.81,
+        "takeout": 32962.7
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- 18:00 dinner rush is the heaviest hour (68,570.63), with 11:00 and 21:00 also high; combined with Fri\u2013Sun as busiest days, these windows risk overload.\n- Delivery is the top-revenue channel (96,390.38), likely creating packing/dispatch pressure during peaks.\n- Underused windows at 8:00 (17,940.42) and 14:00 (36,287.28) represent idle capacity.\n- Volume\u2013revenue mismatch flags at 8:00 (0.09), 14:00 (0.08), and 18:00 (0.08) indicate gaps between order flow and sales value that can hide throughput or pricing issues.\n\n=== KEY INSIGHTS ===\n- Peak hours: 18:00 (68,570.63), 11:00 (50,561.34), 21:00 (42,512.22).\n- Slow hours: 8:00 (17,940.42), 14:00 (36,287.28).\n- Busiest days: Saturday (37,149.89), Sunday (37,107.13), Friday (33,377.50).\n- Slow days: Wednesday (25,790.96), Tuesday (26,857.99), Monday (26,904.22).\n- Seasonality: Spike in March (75,273.88) and January (62,464.56); sharp lull in April (17,312.61). February is also listed as a lull (60,820.84).\n- Channels: Delivery (96,390.38) > Dine-in (86,518.81) >> Takeout (32,962.70).\n- Notable anomaly: April\u2019s very low total versus other months suggests an unusual drop worth verifying.\n\n=== RECOMMENDATIONS ===\n- Staffing\n  - Add coverage and leadership on Fri\u2013Sun during 17:00\u201319:00 and 20:00\u201322:00.\n  - Lighten staffing on Mon\u2013Wed mornings and around 14:00; cross-train for flexible redeployment.\n  - Assign a dedicated delivery packing/expediter role during dinner peaks.\n- Prep and handoff flow\n  - Pre-batch high-demand dinner items before 17:00; stage sauces/garnishes for speed.\n  - Set up a clear delivery pickup shelf/zone and driver queue management.\n  - Use order pacing during the 18:00 peak to balance kitchen load; plan closing tasks after the 21:00 wave.\n- Channel tactics\n  - Delivery: Tighten packaging line and readiness alerts; consider minimums/fees only outside peak to avoid slowing throughput at 18:00.\n  - Takeout: Promote and streamline curbside/pickup to relieve peak dine-in/delivery pressure; ensure clear signage and quick handoff.\n- Promo timing\n  - Run offers in slow windows (8:00, 14:00) and on Mon\u2013Wed (e.g., morning combos, mid\u2011afternoon snacks).\n  - Avoid discounting during the 18:00 peak; focus on add\u2011ons instead.\n- Improve average order value (AOV)\n  - Bundle popular mains with sides/drinks.\n  - Prompt add\u2011ons in delivery/dine\u2011in flows; set free\u2011delivery or bonus thresholds just above typical ticket values.\n- Seasonality\n  - Stock and staff up ahead of March; prepare targeted campaigns for April\u2019s lull.\n  - Verify April\u2019s drop to rule out data gaps or one\u2011off events.\n\n=== PRIORITY ACTIONS ===\n1. Lock a peak\u2011period playbook for Fri\u2013Sun 18:00\u201321:00 (extra staffing, dedicated delivery packing, order pacing).\n2. Launch slow\u2011window promos for 8:00 and 14:00 on Mon\u2013Wed to use idle capacity and lift takeout.\n3. Audit order mix/discounting at 8:00, 14:00, and 18:00 to address volume\u2013revenue mismatch and raise AOV, especially in delivery.",
+    "recommendations": "Here\u2019s a tight plan you can use right away.\n\nPractical actions for staffing, scheduling, and flow\n- Staffing and scheduling\n  - Fri\u2013Sun 17:00\u201322:00 (peaks at 18:00; also 11:00 and 21:00):\n    - Add one kitchen lead/expo to control the board.\n    - Add a dedicated delivery packer/expediter and a runner to stage orders to the pickup shelf.\n    - Add 1\u20132 short \u201cpower shifts\u201d (2\u20133 hours) for host/cashier and food runner.\n  - Mon\u2013Wed mornings and 14:00:\n    - Lighten FOH staffing; use cross\u2011trained team for prep, batching, and training.\n    - Schedule maintenance, inventory counts, and small\u2011wares restock here.\n- Kitchen flow\n  - Pre-batch and stage before the rush:\n    - By 16:30 have par-cooked proteins, sauces, and garnishes staged for top dinner items.\n    - Build a \u201cfast lane\u201d station for fries/sides/desserts and a cold station for salads to pull tickets off the hot line.\n  - Order pacing during 18:00\u201319:30:\n    - Use KDS/throttling: cap concurrent tickets per station; extend quoted times on delivery apps by 5\u201310 minutes.\n    - Temporarily pause low-margin/time\u2011consuming items from delivery menus at peak.\n- Delivery/pickup handoff\n  - Set a labeled pickup shelf with alphabetized lanes; print sticky labels with customer name, channel, and time.\n  - One person owns \u201cready-to-rider\u201d checks and hands off to drivers; keep drivers out of the line of guests.\n  - Turn on \u201cbusy mode\u201d in delivery apps during 18:00\u201319:30 and cap new orders if dockets exceed your line capacity.\n- Dine-in flow\n  - Greeter quotes realistic wait times at 18:00 and offers a takeout alternative when dine\u2011in queue >15 minutes.\n  - Stagger seating in small waves to prevent kitchen spikes.\n\nRevenue ideas for high-volume, low-revenue windows (mismatch at 8:00, 14:00, and 18:00)\n- 8:00 (17,940.42; mismatch 0.09)\n  - Raise AOV with bundles: breakfast main + side + coffee at a slight discount vs. a la carte.\n  - Add a premium upsell item (protein add, pastry add-on, fresh juice) surfaced at checkout.\n  - Offer a scheduled group-order option for offices (tray packs) with 24\u2011hour pre\u2011order.\n- 14:00 (36,287.28; mismatch 0.08)\n  - Run a 2\u20134 pm \u201csnack set\u201d (small plate + drink) and a \u201cBOGO half-off sides\u201d to lift attachment.\n  - Promote curbside pickup; ensure a 10\u2011minute ready promise for 1\u20132 item orders.\n  - Push scheduled dinner pre-orders with a small add\u2011on incentive if picked up before 17:00 (pulls load out of the 18:00 crunch).\n- 18:00 (68,570.63; mismatch 0.08)\n  - Remove low-margin/time-heavy items from delivery menus 17:30\u201319:30; feature combo meals that standardize builds.\n  - Disable discounts at peak; instead, push add-ons (sides, desserts) as one-tap modifiers.\n  - Consider a small peak-hour delivery minimum or a \u201cbusy fee\u201d on third-party to discourage low-value, high-complexity orders.\n- Cross-hour fixes\n  - Audit discounts and promos by hour; stop any that auto-apply at 18:00.\n  - Check menu price parity and modifier pricing on third-party apps to cover packaging and platform fees.\n  - Track AOV and gross margin by hour weekly; adjust bundles and item availability accordingly.\n\nTop-3 priority list\n1) Peak playbook for Fri\u2013Sun 18:00\u201321:00\n   - Staff: add expo lead, delivery packer, and runner; schedule 2\u20133 short support shifts.\n   - Flow: pre-batch by 16:30; set pickup shelf; turn on order throttling/longer quotes; hide low-margin SKUs at peak.\n2) Slow-window plan for Mon\u2013Wed 8:00 and 14:00\n   - Run bundles and snack sets; promote curbside and scheduled orders; lighten FOH staffing and redirect to prep/training.\n3) Fix the volume\u2013revenue mismatch\n   - Audit hour-level promos, AOV, and margin at 8:00/14:00/18:00; tighten discounts, add combos, price modifiers properly, and remove peak-hour low-margin items from delivery menus.\n   - Quick check: verify April\u2019s sharp drop (17,312.61) to rule out missing data or closures; adjust March staffing/inventory up based on the spike (75,273.88)."
+  },
+  {
+    "timestamp": "2026-04-23T15:37:46.677034Z",
+    "mode": "openai",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 68570.63,
+        "11": 50561.34,
+        "21": 42512.22
+      },
+      "slow_hours": {
+        "8": 17940.42,
+        "14": 36287.28
+      },
+      "busiest_days": {
+        "Saturday": 37149.89,
+        "Sunday": 37107.13,
+        "Friday": 33377.5
+      },
+      "slow_days": {
+        "Wednesday": 25790.96,
+        "Tuesday": 26857.99,
+        "Monday": 26904.22
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84,
+        "April": 17312.61
+      },
+      "seasonal_spikes": {
+        "March": 75273.88,
+        "January": 62464.56
+      },
+      "seasonal_lulls": {
+        "April": 17312.61,
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 96390.38,
+        "dine-in": 86518.81,
+        "takeout": 32962.7
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Overloaded peaks: 18:00 (68,570.63) and 11:00 (50,561.34) risk kitchen/expo and handoff congestion.\n- Weekend pressure: Saturday (37,149.89), Sunday (37,107.13), Friday (33,377.50) likely strain capacity.\n- Underused windows: 08:00 (17,940.42) and 14:00 (36,287.28); Mon\u2013Wed are slow (25,790.96\u201326,904.22).\n- Channel imbalance: Delivery leads (96,390.38) while takeout lags (32,962.70); potential delivery queueing and idle takeout station.\n- High-order/low-revenue risk flagged by mismatch at 08:00 (0.09), 14:00 (0.08), 18:00 (0.08).\n\n=== KEY INSIGHTS ===\n- Peak hours: 18:00, 11:00, 21:00. Slow hours: 08:00, 14:00.\n- Busiest days: Sat, Sun, Fri. Slow days: Wed, Tue, Mon.\n- Seasonality: March spike (75,273.88); January (62,464.56) and February (60,820.84) solid; sharp drop in April (17,312.61) stands out as an anomaly or severe lull.\n- Channels: Delivery highest (96,390.38), dine-in next (86,518.81), takeout lowest (32,962.70).\n- Volume vs revenue mismatch at 08:00, 14:00, 18:00 suggests tickets aren\u2019t keeping pace with order volume in those windows.\n\n=== RECOMMENDATIONS ===\n- Staffing tweaks\n  - Beef up dinner crew Fri\u2013Sun 17:30\u201319:30 (add expediter/runner and delivery handoff support); ensure strong 11:00 lunch coverage.\n  - Schedule training and breaks in lull windows (Mon\u2013Wed, 14:00); keep a lean team at 08:00.\n- Prep/flow adjustments\n  - Pre-batch/top off high-movers before 11:00 and 18:00; stage clear pickup shelves and a driver queue spot.\n  - Use simple order throttling/caps during 18:00 if tickets spike; separate make-lines/tablets for delivery vs dine-in.\n  - Use 08:00/14:00 for portioning and mise en place to smooth peaks.\n- Channel actions\n  - Protect dine-in speed at peaks with a dedicated delivery station/handoff.\n  - Nudge takeout usage (clear signage, easy pickup, QR/app prompts on receipts) to balance load.\n- Promo timing\n  - Mon\u2013Wed: value bundles or double loyalty to lift visits.\n  - 08:00: small combo (drink + item) to lift ticket size.\n  - 14:00: 2\u20134 PM add-on deals (sides/desserts) to utilize idle capacity.\n- Improve average order value (mismatch hours)\n  - Suggest add-ons at checkout and server prompts.\n  - Set delivery free/discount threshold above current typical ticket to lift 14:00/18:00 orders.\n  - Create family/meal bundles at 18:00; snack bundles at 14:00.\n\n=== PRIORITY ACTIONS ===\n1. Investigate the sharp April drop (17,312.61) for data completeness or operational issues and address root cause.\n2. Fortify dinner peak (18:00) Fri\u2013Sun with added expo/runner and dedicated delivery handoff; pre-batch before 17:30.\n3. Launch targeted AOV boosters in mismatch windows (08:00, 14:00, 18:00): simple bundles, add-on prompts, and a delivery threshold offer.",
+    "recommendations": "Here\u2019s a clean action plan based on your data.\n\nPractical actions for staffing, scheduling, and flow\n- Staff to the peaks\n  - Dinner peak (18:00) Fri\u2013Sun: add 1 expediter, 1 runner, 1 delivery handoff/packer, and 1 line cook from 17:30\u201319:30. Manager on the floor to clear bottlenecks.\n  - Lunch peak (11:00) daily, especially Fri: add 1 cashier/host and 1 packer from 10:45\u201312:30; keep a floater who can jump on the line or bagging.\n  - Late mini-peak (21:00): don\u2019t cut early; keep a lean team through 21:30 to avoid last-hour delays.\n- Use slow windows smartly\n  - Mon\u2013Wed and 14:00: schedule breaks, training, and deep prep. Keep a lean crew at 08:00.\n  - Assign one closer to start at 14:00 to prep for dinner (sauces, portioning, cold station setup).\n- Flow and prep changes\n  - Separate lanes: one make/pack area for delivery and one for dine-in/takeout. If space is tight, at least separate packing and bagging from the hot line.\n  - Pre-batch before peaks: top-sellers ready 60 minutes before 11:00 and 18:00 (sauces, dressings, portioned proteins, par-cooked items you can finish to order).\n  - Delivery handoff: labeled/shelved pickup area, clear driver queue spot, and a dedicated packer during peaks. Use a checklist (item, modifiers, sauces, seal).\n  - Tablet control: one person manages aggregator tablets at peaks; throttle/pause delivery when the kitchen is at capacity; bump quoted times proactively.\n  - Pickup clarity: big \u201cPickup Here\u201d sign, first 1\u20132 parking spots for curbside, order-ahead QR on receipts/table tents.\n  - Don\u2019t let dine-in suffer during peaks: protect a dine-in expo so delivery volume doesn\u2019t stall the pass.\n\nRevenue ideas for high-volume, low-revenue windows (mismatch at 08:00, 14:00, 18:00)\n- 08:00 (low AOV breakfast window)\n  - Small combo: coffee + item at a slight discount; add-on prompts for protein/extra topping.\n  - Pre-bundled \u201cGrab & Go\u201d sets at the counter to speed decisions and lift ticket size.\n  - Loyalty: double points before 9:00.\n- 14:00 (idle capacity, light tickets)\n  - 2\u20134 PM add-on deals: side + drink bundle, dessert add-on for a small upcharge.\n  - \u201cSnack box\u201d or mini-meal bundle priced just above current average ticket.\n  - Pickup-only offer (e.g., 10% off pickup 2\u20134 PM) to build takeout and reduce delivery strain.\n- 18:00 (high volume; protect speed while lifting AOV)\n  - Family bundles (feeds 3\u20134) with a clear value anchor; place at top of online menu from 17:00\u201319:30.\n  - Free delivery above a threshold set 15\u201320% above current average dinner ticket.\n  - Remove or hide low-margin single-item promos from 17:30\u201319:30; highlight premium sides and beverages as default add-ons.\n- Cross-hour tactics\n  - Menu layout: put high-margin add-ons and bundles above fold in apps; pre-select popular add-ons with an easy opt-out.\n  - Staff scripts: one suggestive sell per order (side, dessert, or beverage).\n  - Group orders/catering push Mon\u2013Wed lunch; promote \u201corder by 10:30\u201d for pickup at 11:45.\n\nTop-3 priority list\n1) Investigate April\u2019s sharp drop (17,312.61): check closures, missing data, hours changes, or outages. Fix data gaps and note any operational issues.\n2) Fortify the dinner peak Fri\u2013Sun: add expo/runner/packer, separate packing from the line, and pre-batch before 17:30. Throttle delivery when needed.\n3) Launch simple AOV boosts in mismatch windows (08:00, 14:00, 18:00): time-boxed bundles, add-on prompts, and a dinner delivery free-shipping threshold.\n\nQuick metrics to watch weekly: average order value by hour, on-time rates and make times at 11:00/18:00, delivery driver wait time, order mix by channel, and voids/comp rate during peaks. Adjust staffing and throttles based on these."
+  },
+  {
+    "timestamp": "2026-04-23T15:37:57.459094Z",
+    "mode": "openai",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 68570.63,
+        "11": 50561.34,
+        "21": 42512.22
+      },
+      "slow_hours": {
+        "8": 17940.42,
+        "14": 36287.28
+      },
+      "busiest_days": {
+        "Saturday": 37149.89,
+        "Sunday": 37107.13,
+        "Friday": 33377.5
+      },
+      "slow_days": {
+        "Wednesday": 25790.96,
+        "Tuesday": 26857.99,
+        "Monday": 26904.22
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84,
+        "April": 17312.61
+      },
+      "seasonal_spikes": {
+        "March": 75273.88,
+        "January": 62464.56
+      },
+      "seasonal_lulls": {
+        "April": 17312.61,
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 96390.38,
+        "dine-in": 86518.81,
+        "takeout": 32962.7
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- 18:00 is the top revenue spike (68.6k) \u2192 likely overload risk, especially Fri\u2013Sun.\n- Secondary pressure at 11:00 (50.6k) and 21:00 (42.5k).\n- Underused windows: 8:00 (17.9k) and 14:00 (36.3k).\n- Channel imbalance: delivery leads (96.4k), dine-in close (86.5k), takeout lags (33.0k) \u2192 underused pickup capacity.\n- Volume\u2013revenue mismatch flagged at 8, 14, 18 (0.09\u20130.08) \u2192 possible low AOV or heavy discounting during these times.\n\n=== KEY INSIGHTS ===\n- Demand clusters at 18:00; strong lunch at 11:00 and late evening at 21:00.\n- Slow hours: 8:00 and 14:00.\n- Busiest days: Saturday, Sunday, Friday; slowest: Wednesday, Tuesday, Monday.\n- Seasonality: March spike (75.3k); Jan (62.5k) and Feb (60.8k) solid; sharp April lull (17.3k).\n- Channels: Delivery > Dine-in >> Takeout in revenue.\n- Notable drop: April is far below Q1 levels.\n\n=== RECOMMENDATIONS ===\n- Staffing: Add kitchen, expo/packing, and delivery handoff coverage 17:00\u201319:00 and at 11:00 on Fri\u2013Sun; trim staffing Mon\u2013Wed at 8:00/14:00.\n- Flow: Pre-prep high sellers before peaks; dedicate an expo/packer; separate pickup vs delivery staging; stagger pickup times to smooth 18:00 spikes.\n- Channel focus: Push takeout with pickup-only bundles or small incentives; promote order-ahead for 11:00 and 18:00 to level demand.\n- Promo timing: Aim offers at Mon\u2013Wed and 8:00/14:00; plan targeted campaigns for the April lull.\n- Lift AOV: Bundle sides/drinks/desserts; prompt add-ons at checkout; use minimum spend or bundle pricing to avoid eroding AOV in peak windows.\n- Mismatch check: Review pricing/discounts at 8, 14, 18 to confirm if high volume/low revenue is occurring; adjust offer rules accordingly.\n\n=== PRIORITY ACTIONS ===\n1. Staff and station for the 18:00 peak on Fri\u2013Sun; assign a dedicated expo/packer and delivery handoff.\n2. Launch Mon\u2013Wed and 8:00/14:00 takeout bundles to grow slow windows and the weakest channel.\n3. Audit 8:00, 14:00, 18:00 pricing/promos to correct the volume\u2013revenue mismatch and raise average order value.",
+    "recommendations": "Here\u2019s a clean plan based on your data.\n\nPractical actions (staffing, scheduling, and flow)\n- Staffing and scheduling\n  - Fri\u2013Sun dinner peak (17:00\u201319:30): add +1 line cook, +1 salad/fry or pantry, +1 dedicated expo/packer, +1 runner/driver-handoff. Keep a lead or manager on expo. Stage a second make/packing line if space allows. Hold breaks outside 16:30\u201320:00.\n  - Lunch surge (10:45\u201313:00, especially Fri): add +1 packer and +1 counter/cashier; keep a cook flexing to cold/hot as orders swing.\n  - Late bump (20:30\u201322:00): keep 1 packer on until 21:30; start closing tasks after 21:00 without shrinking the line.\n  - Slow windows (Mon\u2013Wed, 8:00 and 14:00): trim to a skeleton crew and assign prep, batching, and cleaning. Schedule breaks here.\n- Flow and prep\n  - Pre-prep for peaks: portion proteins/sides, pre-sauce ramekins, par-batch high sellers (80% cooked, finish to order), and pre-build \u201cready-to-fire\u201d items 60\u201390 minutes before 18:00 and 11:00.\n  - Dedicated expo/pack: one person verifies ticket, seals, labels, and shelves orders; use a simple QC checklist (item count, modifiers, sauces, name).\n  - Separate staging: one shelf/trolley for pickup, one for delivery. Sort alphabetically or by app (Uber, DoorDash, etc.) and time. Color-code bags or stickers by channel.\n  - Order pacing: enable order-ahead; cap pickup slots 17:30\u201319:00; throttle third-party when open tickets >12 or quoted time >25 min. Keep drivers outside the cook line\u2014use a marked handoff spot.\n  - Packaging: pre-build bags/utensil kits; keep top 10 items\u2019 packaging within arm\u2019s reach of expo.\n- Channel setup\n  - Takeout push: create pickup-only bundles (priced below delivery), add curbside/short-term \u201cfirst pickup order\u201d incentive, and make the pickup shelf visible. Train staff to invite delivery customers to try pickup next time (QR code on bag).\n  - Delivery efficiency: keep a dedicated handoff; target driver wait <3 minutes; set delivery order minimums in peak hours.\n- Seasonality\n  - April lull: print March \u201cbounce-back\u201d offers redeemable only in April (pickup-only if possible), run Mon\u2013Wed 14:00 snack or family bundles, and pitch office/catering trays for mid-afternoon.\n\nRevenue ideas for high-volume, low-revenue windows (8:00, 14:00, 18:00)\n- First, confirm the mismatch: pull hourly AOV, promo redemption rate, and % discounted orders for 8/14/18 vs all-day. Check item mix (kids/low-priced items) and third-party promo costs.\n- Fixes by window\n  - 8:00\n    - Create a simple \u201cmorning combo\u201d (entr\u00e9e + drink/side) priced to lift AOV by ~$3\u2013$5.\n    - Set a minimum spend for delivery and turn off heavy blanket discounts at this hour; use \u201c$X off $Y spend\u201d instead.\n    - Add an auto-prompt at checkout for coffee/drink or pastry/side.\n  - 14:00\n    - \u201cAfternoon pickup\u201d bundles: 2 entr\u00e9es + shared side, or entr\u00e9e + snack + drink. Target +15% AOV.\n    - Light incentive tied to pickup only (e.g., $3 off $20) and double loyalty points Mon\u2013Wed.\n    - BOGO small side is fine\u2014avoid discounting core entr\u00e9es.\n  - 18:00\n    - Remove or cap discounts 17:30\u201319:00; do not stack promos. Shift any deal messaging to before 17:00 or after 19:00.\n    - Offer family-style bundles (feeds 3\u20134) with high-margin sides/drinks to raise AOV without slowing the line.\n    - Raise third-party pricing 5\u201310% to cover fees; keep direct pickup slightly cheaper. Set a delivery minimum.\n    - If one low-priced item floods the queue, nudge price up 2\u20133% or pair it in a bundle.\n\nTop-3 priority actions\n1) Staff and station for 18:00 Fri\u2013Sun: add a dedicated expo/packer and delivery handoff, stage separate shelves, and pre-prep top sellers 60\u201390 minutes prior.\n2) Grow takeout in slow windows (Mon\u2013Wed, 8:00 and 14:00): launch pickup-only bundles and mild incentives; enable order-ahead and slot caps to smooth 18:00.\n3) Fix the volume\u2013revenue mismatch at 8/14/18: audit promos, set minimum spend/caps, stop stacking during peaks, and add checkout prompts/bundles to lift AOV. Recheck AOV and margin after two weeks.\n\nQuick metrics to watch weekly\n- AOV by hour and channel; promo redemption and net margin.\n- Ticket times and quoted times at 11:00 and 18:00; driver wait time.\n- Share of pickup vs delivery; April offer redemptions (if running)."
+  },
+  {
+    "timestamp": "2026-04-23T15:39:59.427846Z",
+    "mode": "openai",
+    "model": "gpt-5",
+    "analysis": {
+      "peak_hours": {
+        "18": 68570.63,
+        "11": 50561.34,
+        "21": 42512.22
+      },
+      "slow_hours": {
+        "8": 17940.42,
+        "14": 36287.28
+      },
+      "busiest_days": {
+        "Saturday": 37149.89,
+        "Sunday": 37107.13,
+        "Friday": 33377.5
+      },
+      "slow_days": {
+        "Wednesday": 25790.96,
+        "Tuesday": 26857.99,
+        "Monday": 26904.22
+      },
+      "seasonality": {
+        "March": 75273.88,
+        "January": 62464.56,
+        "February": 60820.84,
+        "April": 17312.61
+      },
+      "seasonal_spikes": {
+        "March": 75273.88,
+        "January": 62464.56
+      },
+      "seasonal_lulls": {
+        "April": 17312.61,
+        "February": 60820.84
+      },
+      "channel_perf": {
+        "delivery": 96390.38,
+        "dine-in": 86518.81,
+        "takeout": 32962.7
+      },
+      "volume_revenue_mismatch": {
+        "8": 0.09,
+        "14": 0.08,
+        "18": 0.08
+      }
+    },
+    "bottlenecks": "=== BOTTLENECKS ===\n- Dinner peak at 18:00 is the heaviest window (68,570), with another push at 21:00 (42,512) \u2014 likely kitchen and handoff strain.\n- Weekend load: Saturday/Sunday are top days (~37k each); pressure concentrates on Fri\u2013Sun evenings.\n- Underused hours: 08:00 (17,940) and 14:00 (36,287) \u2014 labor and capacity sit idle.\n- Channel pressure: Delivery leads (96,390) and likely converges with dine-in (86,519) during dinner peaks.\n- Mismatch flags at 08:00 (0.09), 14:00 (0.08), 18:00 (0.08) \u2014 potential low AOV or discounting despite activity.\n\n=== KEY INSIGHTS ===\n- Peak hours: 18:00, 11:00, 21:00.\n- Slow hours: 08:00, 14:00.\n- Busiest days: Saturday, Sunday, Friday. Slow days: Wednesday, Tuesday, Monday.\n- Seasonality: Strong spike in March (75,274); solid January (62,465). Sharp lull in April (17,313); softer February (60,821).\n- Channels: Delivery > Dine-in >> Takeout (32,963).\n- Notable pattern: Late lunch (14:00) underperforms despite a strong 11:00 lunch peak.\n\n=== RECOMMENDATIONS ===\n- Staffing and line setup\n  - Add/cross-train staff and open a second make/expedite lane 17:30\u201319:30 and 20:30\u201321:30, especially Fri\u2013Sun.\n  - Reduce/redeploy staff at 08:00 and 14:00 to prep, batching, and station resets.\n- Prep and handoff flow\n  - Pre-portion high movers before dinner; stage hot/cold zones and a dedicated delivery pickup shelf.\n  - Assign an expediter for delivery orders during dinner to separate dine-in vs delivery flow.\n- Channel tactics\n  - Delivery: tighten quoted times at dinner; schedule courier pickups in smaller, frequent batches.\n  - Takeout: introduce a pickup-only bundle and clear signage/shelf to speed grab-and-go.\n- Demand shaping\n  - Light promos in quiet windows: breakfast combo at 08:00; late-lunch bundle 13:30\u201315:00; small \u201cearly dinner\u201d offer before 17:30.\n  - Weekend upsell prompts on delivery/dine-in (sides, drinks, desserts).\n- AOV and pricing checks\n  - Audit tickets in mismatch hours (08, 14, 18) for heavy discounting or low add-ons; adjust modifiers, bundles, and suggestive prompts.\n\n=== PRIORITY ACTIONS ===\n1. Staff and configure a second make/expedite lane for 17:30\u201319:30 (plus 20:30\u201321:30) on Fri\u2013Sun; add a dedicated delivery expediter.\n2. Launch simple, time-bound offers to lift 08:00 and 14:00 (breakfast combo; late-lunch bundle) and redeploy staff there to prep/staging.\n3. Audit tickets at 08:00, 14:00, and 18:00 for AOV/discount issues; refine bundles, upsell prompts, and any discounts accordingly.",
+    "recommendations": "Practical actions for staffing, scheduling, and flow\n- Staff to the peaks (Fri\u2013Sun)\n  - 17:30\u201319:30 and 20:30\u201321:30: open a second make/expedite lane. Add 1 cook on the hot line, 1 packer/expediter for delivery-only, and 1 runner to hand off to couriers and manage the pickup shelf.\n  - 11:00\u201312:30 lunch: add 1 floater who can jump between hot line and packing.\n  - Set a lead on the pass during all peaks to call tickets and keep dine-in vs delivery separated.\n- Redeploy slow-hour labor\n  - 08:00 and 14:00: shift headcount from service to prep and staging. Batch sauces, portion top movers, restock to-go packaging, reset stations, label/date all prepped items.\n  - Schedule breaks between 14:30\u201316:30 so the full team is back by 17:00.\n- Prep and staging\n  - By 16:30 daily: pre-portion proteins, par-cook items that hold well, prep cold garnishes, and stage dessert/beverage kits. Set clear par levels for dinner rush.\n  - Set up hot and cold holding near the pass. Place a clearly labeled delivery pickup shelf at the door, with alpha sections (A\u2013M, N\u2013Z).\n  - Bag-label every to-go order with name, items, and time; add color stickers for channel (delivery, takeout).\n- Order flow and quoting\n  - Use KDS or ticket routing by channel: dine-in on one screen/rail, off-premise on another.\n  - During 17:30\u201319:30, throttle delivery by raising quoted times 5\u201310 minutes if ticket times exceed target; cap simultaneous delivery orders if your system allows it.\n  - Release delivery orders to \u201cready\u201d only when bagged to cut courier dwell time. Target courier wait under 3 minutes.\n- Front-of-house and courier handoff\n  - Post \u201cDelivery Pickup\u201d signage at the door. Keep one staffer as courier wrangler during peaks to avoid crowding the pass.\n  - Add a small second POS/tablet at the pickup shelf to resolve order issues without blocking dine-in.\n- Seasonality adjustments\n  - March: add weekend dinner shifts and extra prep time.\n  - April: trim labor, schedule maintenance/deep clean, and push off-peak offers.\n\nRevenue ideas for high-volume low-revenue windows (mismatch at 08:00, 14:00, 18:00)\n- 08:00 (slow and low AOV)\n  - Breakfast combo: main + coffee/tea at a clear price point. Offer a pastry add-on for a small upcharge.\n  - \u201cOrder ahead by 7 pm, pick up by 8:30 am\u201d for office breakfasts; add a coffee box and fruit option.\n  - Simple loyalty: buy 5 coffees, get 1 free; promote on receipt and at the pickup shelf.\n- 14:00 (underperforming late lunch)\n  - Late-lunch bundle 13:30\u201315:00: main + side + drink at a value price with good margin items. Promote \u201cskip the rush\u201d in-app and on signage.\n  - Small-plate + drink pairing for solo diners; highlight snacks with high margin (fries, dips, sides).\n  - Push small group takeout (3\u20135 people) with easy add-ons (family sides, desserts). Offer timed order-ahead for workplace pickups.\n- 18:00 (busy but low AOV/over-discounting)\n  - Tighten discounts at dinner: no broad coupons 17:30\u201319:30. If you must discount, make it add-on based (free dip with 2 mains) rather than percent-off.\n  - Menu engineering: nudge high-margin add-ons to the top of the delivery/takeout menu (extra protein, premium sides, dips, drinks, desserts). Add a \u201cMake it a combo\u201d toggle on best sellers.\n  - Price check top movers; consider a small price lift on the #1 and #2 dinner items if margins are thin.\n  - Set a free-delivery threshold slightly above current AOV to raise baskets; keep delivery fees a bit higher at peak.\n- What to measure weekly\n  - AOV by hour (08, 14, 18), attach rate for sides/desserts/drinks, discount rate and $ discounted, and ticket times. Aim for +10\u201315% AOV at 08:00/14:00 and +5\u20138% at 18:00.\n\nTop-3 priority list\n1) Peak readiness (Fri\u2013Sun): open a second make/expedite lane 17:30\u201319:30 (and 20:30\u201321:30 as needed), add a delivery-only expediter and courier wrangler, set up a labeled pickup shelf, and route tickets by channel. Throttle delivery if ticket times slip.\n2) Lift low-AOV windows: launch a breakfast combo at 08:00 and a late-lunch bundle 13:30\u201315:00; at dinner, remove broad discounts and push profitable add-ons and combos. Track AOV and attach rate weekly and adjust.\n3) Use slow hours for prep and staging: pre-portion top movers before 17:00, restock packaging, and reset stations at 14:00 so the dinner rush runs without bottlenecks."
+  }
+]
