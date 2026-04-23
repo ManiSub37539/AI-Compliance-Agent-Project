@@ -1,4 +1,4 @@
-You are helping a business review restaurant sales analysis output.
+Looking at small business data -> business review restaurant sales analysis output
 
 INPUT DATA EXPECTED:
 - Peak hours

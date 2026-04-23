@@ -59,7 +59,7 @@ OpenAI mode:
 ```env
 MODE=openai
 OPENAI_API_KEY=your_key_here
-MODEL=gpt-5
+OPENAI_MODEL=gpt-5
 ```
 
 ### Required CSV Columns
